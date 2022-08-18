@@ -1,6 +1,6 @@
 /* Format del titol */
 h1{
-    font-size: 46px;
+    font-size: 38px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -10,6 +10,7 @@ table {
     margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
+    border-top: 2px solid;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -78,11 +79,11 @@ td { /* Definicio celes */
 .button{
     border: 1px solid;
     background-color: aquamarine;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border-radius: 8px;
-    margin-top: 30px;
+    margin-top: 15px;
     transition-duration: 0.2s;
 }
 
@@ -97,7 +98,8 @@ td { /* Definicio celes */
 }
 #add-player-btn{
     position: absolute;
-    left: 60%;
+    left: 42%;
+    margin-top: 65px;
 }
 #rem-player-btn{
     position: absolute;
