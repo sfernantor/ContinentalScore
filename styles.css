@@ -1,0 +1,105 @@
+/* Format del titol */
+h1{
+    font-size: 46px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Format de taula */
+table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    height: 25px;
+}
+
+th{ /* Capçals taula */
+    background-color: aquamarine;
+    padding: 5px;
+    height: 25px;
+}
+
+td { /* Definicio celes */
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+}
+
+#col-round{ /* id primera columna */
+    width: 150px;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    text-align: left;
+}
+
+/* Classe per les columnes de jugadors */
+.col-player{
+    width: 100px;
+    border-right: 1px solid grey;
+}
+.col-rightborder{
+    width: 100px;
+    border-right: 2px solid;
+}
+
+/* Classe per les cel.les d'entrada de numeros */
+.cell-in{
+    width: 80%;
+    text-align: center;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.change-cards{
+    border-bottom: 2px solid;
+}
+
+#t-header {
+    font-size: 15px;
+}
+
+#t-round{
+    text-align: center;
+    border-bottom: 2px solid;
+    background-color: aquamarine;
+    height: 25px;
+    font-size: 15px;
+}
+
+#t-joc{
+    height: 57px;
+}
+
+/* Boto Calcular */
+.button{
+    border: 1px solid;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition-duration: 0.2s;
+}
+
+.button:hover{ /* format del botó quan el ratolí és al damunt */
+    background-color: white;
+    border: 2px solid aquamarine;
+}
+
+#calc-btn{
+    position: absolute;
+    left: 45%;
+}
+#add-player-btn{
+    position: absolute;
+    left: 60%;
+}
+#rem-player-btn{
+    position: absolute;
+    left: 80%;
+}
